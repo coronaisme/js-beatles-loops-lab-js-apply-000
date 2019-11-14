@@ -22,7 +22,6 @@ function iLoveTheBeatles(number) {
   var array = [];
   var string = 'I love the Beatles!';
   var i = 0;
-  var diff = Math.abs(number - 15)
   
   do {
     array.push(string);
