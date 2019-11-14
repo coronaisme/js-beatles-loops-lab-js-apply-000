@@ -22,13 +22,13 @@ function iLoveTheBeatles(number) {
   var array = [];
   var string = 'I love the Beatles!';
   var i = 0;
+  var diff = Math.abs(number - 15)
   
   do {
     array.push(string);
-    i+= number;
-    
+    i+= diff;
   }
-  while (i < 15);
+  while (number < 15);
   return array;
 }
 
